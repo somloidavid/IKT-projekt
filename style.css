@@ -31,3 +31,9 @@ h1{
     text-align: center;
     color: #F4976C;
 }
+
+.menu{
+    background-color: red;
+    width: 5%;
+    height: 5%;
+}
