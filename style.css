@@ -55,13 +55,13 @@ h1{
     max-height: 40vh;
     margin-top: 5vh;
 }
-.card>img{
-    height: auto;
-    max-height: 40vh;
+
+.navbar-brand img {
+    max-width: 10vh;
+    display: block;
     width: 100%;
-    object-fit: cover;
-    border-radius: 2vh;
-}
-#bud_card{
-    margin-right: 20vw;
+    border-radius: 5vh;
+    }
+.navmargin{
+    margin-right: 10vh;
 }
