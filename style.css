@@ -12,13 +12,13 @@
 }
 
 body{
-    background-color: #FBE8A6;
+    background-color: #f7e08e;
 }
 
 .header{
     width: 100%;
     height: 10vh;
-    background-color: #FBE8A6;
+    background-color: #f7e08e;
 }
 
 .title{
@@ -32,8 +32,10 @@ h1{
     color: #F4976C;
 }
 
-.menu{
+.slide{
     background-color: red;
-    width: 5%;
-    height: 5%;
+    width: 70%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 5vh;
 }
