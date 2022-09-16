@@ -39,3 +39,13 @@ h1{
     margin: auto;
     margin-top: 5vh;
 }
+
+.navbar-brand img {
+    max-width: 10vh;
+    display: block;
+    width: 100%;
+    border-radius: 5vh;
+    }
+.navmargin{
+    margin-right: 10vh;
+}
