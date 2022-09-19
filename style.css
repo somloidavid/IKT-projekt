@@ -65,3 +65,20 @@ h1{
 #bud_card{
     margin-right: 20vw;
 }
+.navbar-brand img{
+    max-height: 15vh;
+    
+}
+
+.carousel{
+    width: 100%;
+}
+.mainimage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/highquality.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+}
