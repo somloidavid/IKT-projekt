@@ -3,6 +3,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    background-color: #f7e08e;
 }
 
 .container {
@@ -33,6 +34,7 @@ body {
     border-left: 1px solid #d4d4d4;
     padding: 1em;
     overflow: hidden;
+    text-align: justify;
 }
 
 ul {
@@ -81,4 +83,17 @@ th, td {
 th{
     text-align: left;
     background-color: rgb(138, 138, 138);
+}
+.footer>a{
+    color: #fff;
+    font-size: 2em;
+}
+.box{
+    margin: 5vh;
+}
+img{
+    border-radius: 10px;
+}
+.eletrajz{
+    margin-bottom: -1vh;
 }
