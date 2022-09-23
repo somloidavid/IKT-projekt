@@ -93,3 +93,47 @@ a.nav-link{
 .navbar-toggler {
     border-radius: 1rem;
 }
+.mimg{
+width: 100%;  
+  border-radius: 1vh;
+  display: block;
+    width: 100%;
+    aspect-ratio: 1/1.5;
+    object-fit: cover;
+    object-position: center;
+}
+.moviecard{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1vw;
+ 
+
+}
+
+.allmovies{
+
+ width: 100vh;
+ display: flex;
+flex-direction: row;
+}
+.htext{
+    position: absolute;
+    inset: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    background: rgba(255,255,255,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mimg,.htext{
+    transition: 200ms ease-in-out;
+
+}
+.moviecard> .htext.fade{
+    opacity: 0;
+}
+
+.moviecard:hover> .htext.fade{
+    opacity: 1;
+}
