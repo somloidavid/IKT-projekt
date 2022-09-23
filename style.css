@@ -42,21 +42,35 @@ body{
     height: 500px;
 }
 
+#tv{
+    max-height: 30vh;
+    width: 30vw;
+    margin: 3vh;
+}
+
 .text{
     height: 100%;
     width: 30vw;
     font-weight: 700;
-    font-size: 2.5vh;
+    font-size: 3vw;
     text-align: center;
     position: relative;
-    left: 10vw;
-    top: 7vh;
+    top: 7vw;
     color: #F4D35E;
     text-shadow: 0.25vh 0.25vh #7692F5;
 }
 
+.text_left{
+    left: 10vw;
+}
+
+.text_right{
+    right: 10vw;
+    float: right;
+}
+
 .menutitle{
-    width: 45vw;
+    width: 75vw;
     height: 8vh;
     background-color: #303C6C;
     font-family: 'Lobster', cursive;
@@ -65,9 +79,8 @@ body{
     transition: 0.5s;
 }
 
-.menutitle>a{
+.menutitle>p{
     color: #D2FDFF;
-    text-decoration: none;
     position: relative;
     top: 1.7vh;
 }
@@ -80,35 +93,14 @@ body{
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 80%); */
     clip-path: polygon(68% 0, 100% 0, 100% 50%, 100% 100%, 68% 100%, 2% 100%, 0 73%, 0 27%, 2% 0);
     float: right;
-    position: relative;
-    top: 400px;
+    /* position: relative;
+    top: 400px; */
 }
 
 .left{
     clip-path: polygon(98% 0, 100% 27%, 100% 73%, 98% 100%, 25% 100%, 0 99%, 0 73%, 0 27%, 0 0);
     float: left;
-    position: relative;
-    top: -1vh;
+    /* position: relative;
+    top: 400px; */
 }
 
-.menu>img{
-    width: 30vw;
-    float: right;
-}
-
-
-.menu_l{
-    height: 40vh;
-    width: 45vw;
-    margin: none;
-    position: relative;
-    top: 40vh;
-}
-
-.menu_l>img{
-    width: 30vw;
-    float: left;
-    /* float: left;
-    position: relative; */
-    /* top: -10vh; */
-}
