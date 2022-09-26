@@ -8,9 +8,9 @@ body {
 	background-size: cover;
     background-color: #313131;
 	color: #000305;
-	font-size: 13px; 
+	font-size: 10px; 
 	font-family: 'Lucida Sans', Arial, sans-serif;
-	line-height: 13px;
+	line-height: 10px;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -160,8 +160,8 @@ a:hover {
 	color: aqua;
 }
 
-.terence_hill_image{
-	height: max-content;
+.bud_spencer_image{
+	height: 30vh;
 	float: left;
 	margin-left: -1vh;
 }
@@ -172,7 +172,7 @@ a:hover {
 
 
 
-@media (max-width: 870px) {
+@media (max-width: 700px) {
 	.mainContent {
 		overflow: hidden;
 		line-height: 2.5vh;
