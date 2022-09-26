@@ -165,6 +165,17 @@ a:hover {
 	float: left;
 	margin-left: -1vh;
 }
+tr, td, th{
+	text-align: center;
+}
+table{
+	border: solid 2px #303c6c;
+}
+td{
+	border-top: solid 2px #303c6c;
+	border-left: solid 2px #303c6c;
+}
+
 
 
 
