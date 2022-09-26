@@ -45,10 +45,8 @@ body{
     background-color: #f7e08e;
     width: 30vw;
     height: 30vh;
-    margin: 5vh auto;
     border-radius: 6vh;
     border: 0.5vh #f7e08e solid;
-
 }
 
 .menu>p{
@@ -67,9 +65,76 @@ body{
 
 #menu_1{
     background-image: url(img/They\ Call\ Me\ Trinity.jpg);
-    background-position: -15vw 0vh;
+    background-size: cover;
+}
+
+#menu_2{
+    background-image: url(img/ff83c3b490ad87475a858467d1c2fbfa.jpg);
+    background-size: cover;
+}
+
+#menu_3{
+    background-image: url(img/terencehill_bw.jpg);
+    background-size: cover;
+}
+
+#menu_4{
+    background-image: url(img/budspencer_bw.jpg);
+    background-size: cover;
 }
 
 a{
     text-decoration: none;
+    margin: 5vh auto;
 }
+
+@media only screen and (max-width: 660px) {
+    #menu_1{
+        background-position: -22vw;
+    }
+    
+    #menu_2{
+        background-position: -50vw;
+    }
+    
+    #menu_3{
+        background-position: -37vw;
+    }
+    
+    #menu_4{
+        background-position: -35vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+
+    .header>h1{
+        font-size: 4vh;
+    }
+
+    #menu_1{
+        background-position: -27vw;
+    }
+
+    #menu_2{
+        background-position: -63vw;
+    }
+
+    #menu_3{
+        background-position: -46vw;
+    }
+
+    #menu_4{
+        background-position: -45vw;
+    }
+
+    .menu>p{
+        font-size: 2vh;
+    }
+}
+
