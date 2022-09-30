@@ -23,19 +23,7 @@ function closevid(){
     nav[0].style.scale= 1;
     var bcon = document.getElementsByClassName("bcon") 
     bcon[0].style.scale= 0;
+    var ifr = document.getElementsByClassName("video") 
+    ifr[0].src = "";
    
 }
-// const EscapeListen = React.createClass({
-//     handleKeyDown: function(e) {
-//       if (e.keyCode === 27) {
-//         console.log('You pressed the escape key!')
-//       }
-//     },
-  
-//     render: function() {
-//       return (
-//         <input type='text'
-//                onKeyDown={this.handleKeyDown} />
-//       )
-//     }
-//   })
