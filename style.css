@@ -11,9 +11,12 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-
+body {
+    min-height: 100%;
+  }
 body{
     background-color: #f7e08e;
+
 }
 
 .header{
@@ -65,6 +68,11 @@ h1{
 #bud_card{
     margin-right: 20vw;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .navbar-brand img{
     max-height: 15vh;
     
@@ -78,16 +86,35 @@ h1{
     width: 100%;
     background-image: url(img/high\ quality.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center top;
     background-size: cover;
 }
+@media only screen and (max-width: 600px) {
+    .mainimage{
+        height: 100vh;
+        width: 100%;
+        background-image: url(img/kiskep.jpg);
+        
+        background-position: center center;
+
+    }
+
+}
+
 .navbar-toggler-icon{
     width : 5rem;
     height: 5rem;
 }
 a.nav-link{
     font-size: 1.5em;
+    font-weight: bold;
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 
 }
 .navbar-toggler {
@@ -114,9 +141,12 @@ width: 100%;
 
 .allmovies{
 
- width: 100vh;
+ width: fit-content;
  display: flex;
 flex-direction: row;
+
+
+
 }
 .htext{
     position: absolute;
@@ -131,6 +161,7 @@ flex-direction: row;
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
+    color: rgba(255,255,255,0);
 }
 .mimg,.htext{
     transition: 200ms ease-in-out;
@@ -142,4 +173,57 @@ flex-direction: row;
 
 .moviecard:hover> .htext.fade{
     opacity: 1;
+}
+.vidcontainer{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    top: 0;
+    left: 0vh;
+    padding-top: 0vh;
+    background-color: rgba(255,255,255,.7);
+    opacity: 0;
+    scale: 0;
+    padding-bottom: 56.25%; 
+
+     
+    overflow: hidden; 
+}
+
+
+.vidcontainer iframe {
+     position: absolute;
+      top: 10%; 
+      left: 5%; 
+      width: 90%; 
+      height: 70%;
+
+     }
+.close{
+    position: relative;
+    background-color: white;
+
+    
+
+    width: 5VH;
+
+    font-size: 3vh;
+    text-align: center;
+    padding: 0;
+    border: #303C6C 0.2vh solid;
+}
+.close:hover{
+    background-color: red;
+}
+.bcon{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    scale: 0;
+
 }
