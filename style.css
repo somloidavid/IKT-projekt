@@ -1,0 +1,186 @@
+/* #FBE8A6
+#F4976C
+#303C6C
+#B4DFE5
+#D2FDFF */
+
+/* title:font-family: 'Lobster', cursive; */
+/* text:font-family: 'Cantarell', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #8EA5F7;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    /* background:linear-gradient(#988558, #C19A6B, #f7e08e); */
+    background-color: #f7e08e;
+}
+
+.header>h1{
+    padding: 1.5vh;
+    font-size: 5vh;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0.25vh 0.25vh #F7CB8E;
+    text-align: center;
+    color: #8EA5F7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6vh 12vw 0;
+}
+
+.menu{
+    background-color: #f7e08e;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 6vh;
+    border: 0.5vh #f7e08e solid;
+}
+
+.menu>p{
+    text-align: center;
+    position: relative;
+    top: 83.4%;
+    left: 0.3%;
+    border-radius: 0 0 6vh 6vh;
+    width: 99.5%;
+    height: 5vh;
+    color: #8EA5F7;
+    text-shadow: 0.2vh 0.2vh #F7CB8E;
+    font-size: 3vh;
+    background-color: rgba(255, 255, 255, 0.834);
+}
+
+#menu_1{
+    background-image: url(main_img/They\ Call\ Me\ Trinity.jpg);
+    background-size: cover;
+}
+
+#menu_2{
+    background-image: url(main_img/kapcsolat.jpg);
+    background-size: cover;
+}
+
+#menu_3{
+    background-image: url(main_img/terencehill_bw.jpg);
+    background-size: cover;
+}
+
+#menu_4{
+    background-image: url(main_img/budspencer_bw.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    margin: 5vh auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #menu_1{
+        background-position: -5vw;
+    }
+    
+    #menu_2{
+        background-position: -5vw;
+    }
+    
+    #menu_3{
+        background-position: -12vw;
+    }
+    
+    #menu_4{
+        background-position: -12vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    #menu_1{
+        background-position: -26vw;
+    }
+    
+    #menu_2{
+        background-position: -20vw;
+    }
+    
+    #menu_3{
+        background-position: -25vw;
+    }
+    
+    #menu_4{
+        background-position: -25vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    #menu_1{
+        background-position: -27vw;
+    }
+    
+    #menu_2{
+        background-position: -20vw;
+    }
+    
+    #menu_3{
+        background-position: -46vw;
+    }
+    
+    #menu_4{
+        background-position: -45vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+
+    .header>h1{
+        font-size: 4vh;
+    }
+
+    #menu_1{
+        background-position: -27vw;
+    }
+
+    #menu_2{
+        background-position: -20vw;
+    }
+
+    #menu_3{
+        background-position: -46vw;
+    }
+
+    #menu_4{
+        background-position: -45vw;
+    }
+
+    .menu>p{
+        font-size: 2vh;
+    }
+}
+
