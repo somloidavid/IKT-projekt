@@ -9,73 +9,178 @@
 
 *{
     margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
 body{
-    background-color: #f7e08e;
-    font-family: 'Cantarell', sans-serif;
+    background-color: #8EA5F7;
+    font-family: 'Nunito', sans-serif;
 }
 
 .header{
     width: 100%;
     height: 10vh;
+    /* background:linear-gradient(#988558, #C19A6B, #f7e08e); */
     background-color: #f7e08e;
 }
 
-.title{
-    width: 40%;
-    margin: auto;
-    padding: 3vh;
-    font-size: 100%;
+.header>h1{
+    padding: 1.5vh;
+    font-size: 5vh;
     font-family: 'Lobster', cursive;
-}
-
-h1{
+    text-shadow: 0.25vh 0.25vh #F7CB8E;
     text-align: center;
-    color: #F4976C;
-}
-
-.menu{
-    margin-bottom: 5vh;
-    width: 45vw;
-    height: 8vh;
-    background-color: #303C6C;
-    text-align: center;
-    font-size: 3vh;
-}
-
-.menu>a{
-    text-decoration: none;
-    color: #D2FDFF;
-    position: relative;
-    top: 1.7vh;
-}
-
-.right{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
-    float: right;
-    position: relative;
-    top: -1vh;
-}
-
-.left{
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
-    position: relative;
-    top: 25vh
-}
-
-.container>img{
-    width: 30vw;
-    float: right;
+    color: #8EA5F7;
 }
 
 .container{
-    float: right;
-    margin: none;
-    height: 30vh;
-    width: 40vw;
-    height: 24vh;
-    position: relative;
-    top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6vh 12vw 0;
 }
+
+.menu{
+    background-color: #f7e08e;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 6vh;
+    border: 0.5vh #f7e08e solid;
+}
+
+.menu>p{
+    text-align: center;
+    position: relative;
+    top: 83.4%;
+    left: 0.3%;
+    border-radius: 0 0 6vh 6vh;
+    width: 99.5%;
+    height: 5vh;
+    color: #8EA5F7;
+    text-shadow: 0.2vh 0.2vh #F7CB8E;
+    font-size: 3vh;
+    background-color: rgba(255, 255, 255, 0.834);
+}
+
+#menu_1{
+    background-image: url(img/They\ Call\ Me\ Trinity.jpg);
+    background-size: cover;
+}
+
+#menu_2{
+    background-image: url(img/ff83c3b490ad87475a858467d1c2fbfa.jpg);
+    background-size: cover;
+}
+
+#menu_3{
+    background-image: url(img/terencehill_bw.jpg);
+    background-size: cover;
+}
+
+#menu_4{
+    background-image: url(img/budspencer_bw.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    margin: 5vh auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #menu_1{
+        background-position: -5vw;
+    }
+    
+    #menu_2{
+        background-position: -5vw;
+    }
+    
+    #menu_3{
+        background-position: -12vw;
+    }
+    
+    #menu_4{
+        background-position: -12vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    #menu_1{
+        background-position: -26vw;
+    }
+    
+    #menu_2{
+        background-position: -20vw;
+    }
+    
+    #menu_3{
+        background-position: -25vw;
+    }
+    
+    #menu_4{
+        background-position: -25vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    #menu_1{
+        background-position: -27vw;
+    }
+    
+    #menu_2{
+        background-position: -20vw;
+    }
+    
+    #menu_3{
+        background-position: -46vw;
+    }
+    
+    #menu_4{
+        background-position: -45vw;
+    }
+    
+    .menu>p{
+        font-size: 2.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+
+    .header>h1{
+        font-size: 4vh;
+    }
+
+    #menu_1{
+        background-position: -27vw;
+    }
+
+    #menu_2{
+        background-position: -20vw;
+    }
+
+    #menu_3{
+        background-position: -46vw;
+    }
+
+    #menu_4{
+        background-position: -45vw;
+    }
+
+    .menu>p{
+        font-size: 2vh;
+    }
+}
+
