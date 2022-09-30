@@ -64,22 +64,22 @@ body{
 }
 
 #menu_1{
-    background-image: url(img/They\ Call\ Me\ Trinity.jpg);
+    background-image: url(main_img/They\ Call\ Me\ Trinity.jpg);
     background-size: cover;
 }
 
 #menu_2{
-    background-image: url(img/ff83c3b490ad87475a858467d1c2fbfa.jpg);
+    background-image: url(main_img/kapcsolat.jpg);
     background-size: cover;
 }
 
 #menu_3{
-    background-image: url(img/terencehill_bw.jpg);
+    background-image: url(main_img/terencehill_bw.jpg);
     background-size: cover;
 }
 
 #menu_4{
-    background-image: url(img/budspencer_bw.jpg);
+    background-image: url(main_img/budspencer_bw.jpg);
     background-size: cover;
 }
 

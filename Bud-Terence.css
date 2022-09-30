@@ -1,5 +1,5 @@
 body {
-	background: url("img/háttér.jpg") no-repeat center center fixed; 
+	background: url("bud_hill_img/háttér.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -14,7 +14,7 @@ body {
 	text-align: left;
 }
 .hill_body{
-	background: url("img/háttér_hill.jpg") no-repeat center center fixed; 
+	background: url("bud_hill_img/háttér_hill.jpg") no-repeat center center fixed; 
 }
 .body
 {
