@@ -49,6 +49,11 @@ body{
     border: 0.5vh #f7e08e solid;
 }
 
+.menu:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
 .menu>p{
     text-align: center;
     position: relative;
