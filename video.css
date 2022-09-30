@@ -203,6 +203,7 @@ flex-direction: row;
       height: 70%;
 
      }
+
 .close{
     position: relative;
     background-color: white;
@@ -215,6 +216,8 @@ flex-direction: row;
     text-align: center;
     padding: 0;
     border: none;
+
+    border-bottom-left-radius: 2vh;
 }
 .close:hover{
     background-color: red;
