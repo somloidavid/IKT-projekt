@@ -167,31 +167,12 @@ width: 100%;
  width: fit-content;
  display: flex;
 flex-direction: row;
-
-
+}
+.mimg:hover{
+    opacity: 0.6;
 
 
 }
-/* .htext{
-    position: absolute;
-    inset: 0;
-    font-size: 1rem;
-    padding: 1rem;
-    background: rgba(255,255,255,.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #303C6C;
-    font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-    color: rgba(255,255,255,0);
-}
-.mimg,.htext{
-    transition: 200ms ease-in-out;
-
-} */
-
 
 
 .vidcontainer{
