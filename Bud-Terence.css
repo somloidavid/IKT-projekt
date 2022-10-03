@@ -1,30 +1,22 @@
 body {
-	background: url("bud_hill_img/háttér.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: url("bud_hill_img/háttér.jpg") no-repeat center fixed; 
 	background-size: cover;
-    background-color: #313131;
-	color: #000305;
-	font-size: 13px; 
-	font-family: 'Lucida Sans', Arial, sans-serif;
-	line-height: 13px;
+	color: #5264a5;
+	font-size: 1vh; 
+	font-family: 'Nunito', sans-serif;
+	line-height: 1vh;
 	margin: 0;
 	padding: 0;
 	text-align: left;
+	text-shadow:  #303c6c 0.03vh 0.03vh;
 }
 .hill_body{
 	background: url("bud_hill_img/háttér_hill.jpg") no-repeat center center fixed; 
 }
-.body
-{
-	clear: both; 
-	margin: 0 auto;
-	width: 70%;
-}
+
 h1 {
-	color: #303c6c;
-	font-size: 28px;
+	color: #8EA5F7;
+	font-size: 2.5vh;
 	text-align:right;
 	float:right;
 	margin:3vh 3vh 0 0;
@@ -32,62 +24,54 @@ h1 {
 	font-family: 'Lobster', cursive;
 }	
 
-h2 {font-size: 22px; 
-	color: #303c6c;
-	font-family: 'Cantarell', sans-serif; 
-
-}
-h3 {font-size: 20px}
-h4 {font-size: 18px}
-h5 {font-size: 16px}
-h6 {font-size: 14px}
-
-h2, h3, h4, h5, h6 {
-	font-weight: 400;
-	line-height: 15px;
-	margin-bottom: 5px;
-	line-height: 100%;
+h2 {
+	font-size: 2.5vh; 
+	font-family: 'Lobster', cursive;
 }
 
 a:hover {
-	background-color: rgba(207,92,63,0.5);
-	color: #fff;
+	transition: 0.5s;
+	background-color: #ccd6fa;
+	color: #b9aa70;
 	text-decoration: none;
 }
 
-.header nav {
-	background: rgba(0,0,0,0.3);
+header{
+	background-color: #e6d28b;
+}
+
+header nav {
+	background-color: rgba(0, 0, 0, 0.24);
 	font-size: 1.143em;
 	height: 4vh;
 	line-height: 3vh;
 	margin: 0 auto 3vh auto;
 	text-align: center;
-	border-radius: 0.5vh;
 }
 	
-.header nav ul {
+header nav ul {
 	list-style: none; 
 	margin: 0 auto;
 }
 
-.header nav ul li {
+header nav ul li {
 	float: left; 
 	display: inline; 
 }
 	
-.header nav a:link{
+header nav a:link{
 	display: inline-block;
 	height: 3vh;
 	padding: 0.5vh 2.3vh;
 	text-decoration: none;
 }
 	
-.header nav li a {
-	color: rgb(33, 189, 168);
+header nav li a {
+	color: #ccd6fa;
 	border-radius: 0.5vh;
 }
 
-.header img {
+header img {
 	width: 30%;
 	height: auto;
 	margin: 3% 0;
@@ -106,7 +90,8 @@ a:hover {
 }
 
 .content-2, .content-1 {
-	background-color: rgba(233, 227, 227, 0.795);	border-radius: 0.5vh;
+	background-color: rgba(233, 227, 227, 0.74);	
+	border-radius: 0.5vh;
 	padding: 3% 5%;
 }
 
@@ -120,7 +105,7 @@ a:hover {
 
 .megjegyzes {
 	font-style: italic;
-	color: rgb(58, 49, 49);
+	color: #303c6c;
 	font-size: 90%;
 }
 
@@ -131,7 +116,8 @@ a:hover {
 	float: left;
 	margin-left: 2%;
 	border-radius: 0.5vh;
-	background-color: rgba(233, 227, 227, 0.795);	padding: 2% 3%;
+	background-color: rgba(233, 227, 227, 0.795);	
+	padding: 2% 3%;
 	margin-bottom: 2%;
 }
 
@@ -169,6 +155,10 @@ table{
 td{
 	border-top: solid 2px #303c6c;
 	border-left: solid 2px #303c6c;
+}
+.darker{
+	color: #303c6c;
+	background-color: rgba(0, 0, 0, 0.205);
 }
 
 

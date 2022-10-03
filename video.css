@@ -72,15 +72,33 @@ h1{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+    padding: 2vh;
+    font-size: 2vh;
+    
+}
+.container-fluid{
+    padding: 0;
 }
 .navbar-brand img{
     max-height: 15vh;
     
 }
-
+.navbar-toggler{
+    background-color: rgba(0,0,0,.6);
+}
+.navbar-toggler:hover{
+    background-color: rgba(0,0,0,.8);
+}
 .carousel{
     width: 100%;
 }
+
+
+
+
+
+
 .mainimage{
     height: 100vh;
     width: 100%;
@@ -103,22 +121,27 @@ h1{
 }
 
 .navbar-toggler-icon{
-    width : 5rem;
-    height: 5rem;
+    width : 8vh;
+    height: 8vh;
+    border-radius: 5vh;
 }
 a.nav-link{
     font-size: 1.5em;
     font-weight: bold;
-
+    color: #fff;
+    
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    -0.1vh -0.1vh 0 #000,
+    0.1vh -0.1vh 0 #000,
+    -0.1vh 0.1vh 0 #000,
+    0.1vh 0.1vh 0 #000;  
 
 }
+
 .navbar-toggler {
-    border-radius: 1rem;
+    border-radius: 5vh;
+    padding: 1vh;
+    align-items: center;
 }
 .mimg{
 width: 100%;  
@@ -144,37 +167,14 @@ width: 100%;
  width: fit-content;
  display: flex;
 flex-direction: row;
-
-
+}
+.mimg:hover{
+    opacity: 0.6;
 
 
 }
-.htext{
-    position: absolute;
-    inset: 0;
-    font-size: 1rem;
-    padding: 1rem;
-    background: rgba(255,255,255,.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #303C6C;
-    font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-    color: rgba(255,255,255,0);
-}
-.mimg,.htext{
-    transition: 200ms ease-in-out;
 
-}
-.moviecard> .htext.fade{
-    opacity: 0;
-}
 
-.moviecard:hover> .htext.fade{
-    opacity: 1;
-}
 .vidcontainer{
     position: fixed;
     height: 100%;
@@ -184,7 +184,7 @@ flex-direction: row;
     top: 0;
     left: 0vh;
     padding-top: 0vh;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255,255,255,.8);
     opacity: 0;
     scale: 0;
     padding-bottom: 56.25%; 
@@ -202,6 +202,7 @@ flex-direction: row;
       height: 70%;
 
      }
+
 .close{
     position: relative;
     background-color: white;
@@ -214,6 +215,8 @@ flex-direction: row;
     text-align: center;
     padding: 0;
     border: none;
+
+    border-bottom-left-radius: 2vh;
 }
 .close:hover{
     background-color: red;
